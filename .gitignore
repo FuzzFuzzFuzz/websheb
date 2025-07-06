@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Environment or build files (if added later)
+.env
+*.bak
+*.tmp
+
+# Deployment artifacts
+dist/
+build/
+
+# Node modules (if you ever add a package.json)
+node_modules/
