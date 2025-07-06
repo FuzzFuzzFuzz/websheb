@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>About - 3/5 Milsim</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/35logoNewT.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Govicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/govicons/govicons.css">
+
+    <!-- Titillium-Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Transparent Top Navigation -->
+    <nav class="top-nav">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+              <img src="assets/img/35logoNewT.png" alt="Unit Logo">
+              <span class="logo-text">3/5 MILSIM</span>
+            </a>
+            <nav class="navbar-links desktop" id="navbarLinks">
+              <a href="index.html">Home</a>
+              <a href="#">About</a>
+              <a href="toe.html">TO&E</a>
+              <a href="team.html">Team</a>
+              <a href="https://discord.gg/GEA23qPCCQ">Discord</a>
+            </nav>
+            <button class="navbar-toggle" id="menuToggle" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+        <!-- Mobile menu container -->
+        <div id="mobileMenu">
+            <nav class="navbar-links mobile" id="mobileNavbarLinks">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="toe.html">TO&E</a>
+                <a href="team.html">Team</a>
+                <a href="https://discord.gg/GEA23qPCCQ">Discord</a>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="about" class="section-bg about-section-about" style="padding-top: 120px;">
+        <div class="about-about-content offset-right">
+            <div class="about-about-section-card">
+                <h2>Who We Are</h2>
+                <p>India Company, 3rd Battalion, 5th Marines is a realism MILSIM unit focused on historical accuracy and disciplined, immersive gameplay in Arma 3.</p>
+            </div>
+        </div>
+
+        <div class="about-about-content offset-left">
+            <div class="about-about-section-card">
+                <h2>Our Mission</h2>
+                <p>We portray the United States Marine Corps and their combat operations during historical conflicts such as World War II, the Vietnam War, and Korea.</p>
+                <p>With several unit members currently serving in the United States Marine Corps or having served in the Marine Corps in the past, as well as thousands of hours of historical research, veteran interviews and virtual experience dedicated to reenacting Marines in historical conflicts, we aim to provide the most accurate, realistic, and professional portrayal of the Infantry Marine during these conflicts.</p>
+            </div>
+        </div>
+
+        <div class="about-about-content offset-right">
+            <div class="about-about-section-card">
+                <h2>Requirements to Join</h2>
+                <p>ACTIVITY: Make ops on Thursday and Saturday, be on time, and let us know in advance if you can’t make it! We also have plenty of other games and side operations we play during the week to help build community.</p>
+                <p>GOOD ATTITUDE: Be positive, be friendly, be professional. It’s a game, let’s not bring drama into it!</p>
+                <p>PASSION FOR HISTORY:  A lot of us are passionate about history, and portraying history as accurately as possible! Bring a love for history, Arma MilSim, or a desire to be a part of a tight-knit community along with you!</p>
+            </div>
+        </div>
+
+        <div class="about-about-content offset-center">
+            <div class="about-about-section-card" style="text-align: center;">
+                <h2>Ready to Join?</h2>
+                <p>We’re more than a unit — we’re a brotherhood. Bring discipline, bring heart, and bring your rifle.</p>
+                <a href="https://discord.gg/GEA23qPCCQ" class="about-btn-enlist">
+                    <i class="fas fa-user-plus"></i> Enlist Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-left">
+        <p>&copy; 2025 3/5 Milsim. All rights reserved.</p>
+        <p class="disclaimer">
+          This website and unit are not affiliated with Bohemia Interactive. All ARMA 3 assets used are property of Bohemia Interactive Studio.
+          This is a community-driven, non-commercial project for simulation and historical reenactment purposes only.
+        </p>
+    </div>
+      <div class="footer-right">
+        <p>Connect with Us</p>
+        <div class="social-icons">
+          <a href="https://www.youtube.com/@IndiaCo35/featured" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://x.com/3rdbn5thmararma" target="_blank" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://discord.gg/GEA23qPCCQ" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const mobileMenu = document.getElementById("mobileMenu");
+      
+        menuToggle.addEventListener("click", () => {
+          mobileMenu.classList.toggle("open");
+        });
+    </script>
+
+</body>
+</html>

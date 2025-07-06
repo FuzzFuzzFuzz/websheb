@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>3/5 Milsim</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/35logoNewT.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Govicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/govicons/govicons.css">
+
+    <!-- Titillium-Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Transparent Top Navigation -->
+    <nav class="top-nav">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+              <img src="assets/img/35logoNewT.png" alt="Unit Logo">
+              <span class="logo-text">3/5 MILSIM</span>
+            </a>
+            <nav class="navbar-links desktop" id="navbarLinks">
+              <a href="#">Home</a>
+              <a href="about.html">About</a>
+              <a href="toe.html">TO&E</a>
+              <a href="team.html">Team</a>
+              <a href="https://discord.gg/GEA23qPCCQ">Discord</a>
+            </nav>
+            <button class="navbar-toggle" id="menuToggle" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+        <!-- Mobile menu container -->
+        <div id="mobileMenu">
+            <nav class="navbar-links mobile" id="mobileNavbarLinks">
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="toe.html">TO&E</a>
+                <a href="team.html">Team</a>
+                <a href="https://discord.gg/GEA23qPCCQ">Discord</a>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Video -->
+    <header>
+        <video autoplay muted loop playsinline>
+            <source src="assets/img/WWS-BackgroundS.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Overlay Content -->
+        <div class="hero-overlay">
+            <div class="hero-logo">
+                <img src="assets/img/35logoNewT.png" alt="Unit Logo">
+            </div>
+
+            <h1>India Company, 3rd Battalion, 5th Marines</h1>
+            <p>GET SOME</p>
+
+            <div class="hero-buttons">
+                <a href="https://discord.gg/GEA23qPCCQ" class="btn-enlist">
+                    <i class="fas fa-user-plus"></i> Enlist Now
+                </a>
+                <a href="https://discord.gg/GEA23qPCCQ" class="btn-discord" target="_blank">
+                    <i class="fab fa-discord"></i> Join Discord
+                </a>
+            </div>
+            
+
+            <!-- Stats Banner -->
+            <div class="stats-banner responsive-hide">
+                <div class="stat-item">
+                    <strong>64</strong>
+                    <span>Active Members</span>
+                </div>
+                <div class="stat-item">
+                    <strong>24</strong>
+                    <span>Campaigns Completed</span>
+                </div>
+                <div class="stat-item">
+                    <strong>80,000</strong>
+                    <span>Combined Hours</span>
+                </div>
+                <div class="stat-item">
+                    <strong>100%</strong>
+                    <span>MILSIM</span>
+                </div>
+            </div>            
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-bg section-about">
+
+        <div class="about-content offset-right">
+            <div class="about-section-card">
+                <h2>Who We Are</h2>
+                <p>Our unit is a professional realism unit/virtual reenactment unit for Arma 3. 
+                    We portray the United States Marine Corps and its combat operations during historical conflicts such as World War II, Korea, and the Vietnam War.</p>
+                <p>With several unit members currently serving in the United States Marine Corps or having served in the Marine Corps in the past, as well as thousands of hours of historical research, veteran interviews, and virtual experience dedicated to reenacting Marines in historical conflicts, we aim to provide the most accurate, realistic, and professional portrayal of the Infantry Marine during these conflicts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events/Operations Section -->
+    <section id="operations" class="section-bg section-operations">
+
+        <div class="operations-content offset-left">
+            <div class="operations-section-card">
+                <h2>Upcoming Deployment</h2>
+                <p><strong>Operation STARLITE</strong> - 1965 - 3rd Battalion, 3rd Marines</p>
+                <p>Coming: Summer 2025</p>
+            </div>
+        </div>
+
+        <!--
+        <div class="wiki-embed" id="wiki-content">
+            Loading...
+        </div>
+        -->
+
+    </section>
+
+    <!-- MOS Section -->
+    <section id="mos" class="section-bg section-mos">
+        <h2>Military Occupational Specialties (MOS)</h2>
+        <div class="mos-cards-container">
+        <!-- MOS Card Example -->
+        <div class="mos-card">
+            <img src="assets/img/NATORotary.png" alt="MOS 1">
+            <h3>7562 - Marine Corps Pilot</h3>
+            <p>Flew fixed-wing or rotary aircraft for reconnaissance, troop transport, medevac, and close air support missions.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATOInfantry.png" alt="MOS 8">
+            <h3>0311 - Rifleman</h3>
+            <p>The primary ground combatant, responsible for engaging the enemy with small arms and maneuvering in close combat.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATOGun.png" alt="MOS 2">
+            <h3>0331 - Machine Gunner</h3>
+            <p>Operated and maintained medium machine guns to provide suppressive fire in support of infantry units.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATOEngineer.png" alt="MOS 4">
+            <h3>0351 - Assaultman</h3>
+            <p>Specialized in demolitions and the use of rocket launchers (like the M72 LAW) to breach obstacles and destroy fortified enemy positions.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATOMedical.png" alt="MOS 5">
+            <h3>8404 - Hospital Corpsman</h3>
+            <p>Navy medical specialist attached to Marine units, providing emergency medical care and casualty evacuation in combat zones.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATOMortar.png" alt="MOS 3">
+            <h3>0341 - Mortarman</h3>
+            <p>Delivered indirect fire support using 60mm or 81mm mortars to engage enemy positions from covered locations.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATORadio.png" alt="MOS 6">
+            <h3>2531 - Field Radio Operator</h3>
+            <p>Managed battlefield communications using radios and Morse code to relay critical information between units and command.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATOInfCommand.png" alt="MOS 7">
+            <h3>0302 - Infantry Officer</h3>
+            <p>Led infantry units in tactical operations, making decisions on maneuver, firepower, and unit coordination.</p>
+        </div>
+        <div class="mos-card">
+            <img src="assets/img/NATORecon.png" alt="MOS 9">
+            <h3>8541 - Scout Sniper</h3>
+            <p>Highly skilled in fieldcraft and marksmanship who delivers long range precision fire, on select targets, from concealed positions.</p>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Timeline Section -->
+    <section class="section-bg section-recruitment-timeline" id="recruitment-flow">
+        <div class="recruitment-title">
+            <h2>Recruitment Process</h2>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline-step">
+                <div class="timeline-icon" id="timeline-icon-explore">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>Explore / Learn</h3>
+                <p>Understand our structure, values, and operations. Learn what it means to be part of the unit.</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-icon" id="timeline-icon-apply">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Apply</h3>
+                <p>Submit a short application outlining your interests and background. We want to hear from you!</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-icon" id="timeline-icon-interview">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Interview</h3>
+                <p>Meet one of our recruiters in Discord to discuss expectations and ask questions.</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-icon" id="timeline-icon-join">
+                    <i class="fas fa-flag-checkered"></i>
+                </div>
+                <h3>Join In</h3>
+                <p>Begin your journey! Get access to our servers and start training with your team.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recruitment Section -->
+    <section id="recruitment" class="section-bg section-recruitment">
+        <div class="recruitment-oath">
+            <h2>JOIN THE UNIT</h2>
+            <h3>Before You Enlist</h3>
+            <p>"I understand that I will train, lead, and support my brothers with honor. 
+                I will embrace the challenge, respect the legacy, and uphold the integrity of the unit."</p>
+            <p>"I am ready to GET SOME."</p>
+
+            <a href="https://discord.gg/GEA23qPCCQ" class="btn-enlist btn-apply" target="_blank">
+                <i class="fas fa-paper-plane"></i> Apply Now
+            </a>      
+        </div>
+    </section>
+
+    <!-- Media/Gallery Section -->
+    <section id="media" class="section-bg section-media">
+        <h2>Gallery</h2>
+        <div class="media-carousel-wrapper">
+            <button class="carousel-arrow left" id="carouselPrev"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="media-carousel" id="mediaCarousel">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Slide Items -->
+                    <div class="media-item"><img src="assets/img/CB1.png" alt="Eyes Forward"><div class="media-caption">Eyes Forward</div></div>
+                    <div class="media-item"><img src="assets/img/CB2.png" alt="Squid Power"><div class="media-caption">Squid Power</div></div>
+                    <div class="media-item"><img src="assets/img/CT2.jpg" alt="Wet Walk"><div class="media-caption">Wet Walk</div></div>
+                    <div class="media-item"><img src="assets/img/CT4.jpg" alt="Wet Run"><div class="media-caption">Wet Run</div></div>
+                    <div class="media-item"><img src="assets/img/chicken.jpg" alt="Carl"><div class="media-caption">Carl</div></div>
+                </div>
+            </div>
+
+            <button class="carousel-arrow right" id="carouselNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+
+        <!--
+        <div class="media-gallery">
+
+            <div class="media-item">
+                <img src="assets/img/CB1.png" alt="Mission Screenshot 1">
+                <div class="media-caption">Eyes Forward</div>
+            </div>
+            <div class="media-item">
+                <img src="assets/img/CB2.png" alt="Mission Screenshot 2">
+                <div class="media-caption">Squid Power</div>
+            </div>
+            <div class="media-item">
+                <img src="assets/img/CT2.jpg" alt="Mission Screenshot 3">
+                <div class="media-caption">Wet Walk</div>
+            </div>
+            <div class="media-item">
+                <img src="assets/img/CT4.jpg" alt="Mission Screenshot 4">
+                <div class="media-caption">Wet Run</div>
+            </div>
+            <div class="media-item">
+                <img src="assets/img/chicken.jpg" alt="Mission Screenshot 5">
+                <div class="media-caption">Carl</div>
+            </div>
+        </div>
+        -->
+    </section>
+
+    <!-- Contact Section -->
+    <!-- PENDING CUST INPUT -->
+    <!--
+    <section id="contact" class="section-bg section-contact">
+        <h2>Contact Us</h2>
+        <form action="https://imgur.com/a/carl-VFm1fj5" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+    
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+    
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-left">
+        <p>&copy; 2025 3/5 Milsim. All rights reserved.</p>
+        <p class="disclaimer">
+          This website and unit are not affiliated with Bohemia Interactive. All ARMA 3 assets used are property of Bohemia Interactive Studio.
+          This is a community-driven, non-commercial project for simulation and historical reenactment purposes only.
+        </p>
+    </div>
+      <div class="footer-right">
+        <p>Connect with Us</p>
+        <div class="social-icons">
+          <a href="https://www.youtube.com/@IndiaCo35/featured" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://x.com/3rdbn5thmararma" target="_blank" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://discord.gg/GEA23qPCCQ" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const mobileMenu = document.getElementById("mobileMenu");
+      
+        menuToggle.addEventListener("click", () => {
+          mobileMenu.classList.toggle("open");
+        });
+    </script>
+    
+    
+    <!-- Wiki Script -->
+    <!--
+    <script>
+        const articleTitle = "Battle of Khe Sanh"; // Replace with any Wikipedia article title
+        const endpoint = `https://en.wikipedia.org/api/rest_v1/page/html/${encodeURIComponent(articleTitle)}`;
+    
+        fetch(endpoint)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error("Network response was not OK");
+            }
+            return response.text();
+          })
+          .then(html => {
+            document.getElementById("wiki-content").innerHTML = html;
+          })
+          .catch(error => {
+            document.getElementById("wiki-content").innerHTML = `<p>Error loading article: ${error.message}</p>`;
+          });
+    </script>
+    -->
+
+    <!-- Carousel Script -->
+    <script>
+        const track = document.getElementById('carouselTrack');
+        const nextBtn = document.getElementById('carouselNext');
+        const prevBtn = document.getElementById('carouselPrev');
+
+        // Track original items
+        const originalItems = Array.from(track.children);
+        const itemCount = originalItems.length;
+
+        // Clone full set of items at both ends
+        originalItems.forEach(item => {
+            track.appendChild(item.cloneNode(true)); // end
+            track.insertBefore(item.cloneNode(true), track.firstChild); // start
+        });
+
+        // Set consistent widths after DOM is ready
+        const carousel = document.getElementById('mediaCarousel');
+        const itemWidth = originalItems[0].getBoundingClientRect().width + 16; // item + gap
+        let index = itemCount;
+
+        // Set initial position
+        function setPosition() {
+            track.style.transform = `translateX(-${index * itemWidth}px)`;
+        }
+        window.addEventListener('load', setPosition);
+        window.addEventListener('resize', setPosition);
+
+        // Smooth scroll
+        function scrollToIndex(newIndex) {
+            track.style.transition = 'transform 0.5s ease';
+            track.style.transform = `translateX(-${newIndex * itemWidth}px)`;
+            index = newIndex;
+
+            track.addEventListener('transitionend', () => {
+                if (index >= itemCount * 2) {
+                    track.style.transition = 'none';
+                    index = itemCount;
+                    setPosition();
+                } else if (index < itemCount) {
+                    track.style.transition = 'none';
+                    index = itemCount + (index % itemCount);
+                    setPosition();
+                }
+            }, { once: true });
+        }
+
+        nextBtn.addEventListener('click', () => scrollToIndex(index + 1));
+        prevBtn.addEventListener('click', () => scrollToIndex(index - 1));
+    </script>
+
+</body>
+</html>

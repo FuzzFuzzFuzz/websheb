@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>3/5 Milsim</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/35logoNewT.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Govicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/govicons/govicons.css">
+
+    <!-- Titillium-Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Transparent Top Navigation -->
+    <nav class="top-nav">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+              <img src="assets/img/35logoNewT.png" alt="Unit Logo">
+              <span class="logo-text">3/5 MILSIM</span>
+            </a>
+            <nav class="navbar-links desktop" id="navbarLinks">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="toe.html">TO&E</a>
+              <a href="team.html">Team</a>
+              <a href="https://discord.gg/GEA23qPCCQ">Discord</a>
+            </nav>
+            <button class="navbar-toggle" id="menuToggle" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+        <!-- Mobile menu container -->
+        <div id="mobileMenu">
+            <nav class="navbar-links mobile" id="mobileNavbarLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="toe.html">TO&E</a>
+                <a href="team.html">Team</a>
+                <a href="https://discord.gg/GEA23qPCCQ">Discord</a>
+            </nav>
+        </div>
+    </nav>
+
+    <main class="section-bg section-404" style="padding-top: 120px">
+        <div class="notfound-container">
+
+            <h1>404</h1>
+            <h3>Page Not Found</h3>
+            <p>Looks like you got lost on patrol.</p>
+            <p>Carl will lead you back.</p>
+
+            <img src="assets/img/chicken.jpg" alt="Lost Patrol" />
+
+            <a href="index.html" class="btn-return">
+                <i class="fas fa-arrow-left"></i> Return to Base
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-left">
+                <p>&copy; 2025 3/5 Milsim. All rights reserved.</p>
+                <p class="disclaimer">
+                    This website and unit are not affiliated with Bohemia Interactive. All ARMA 3 assets used are property of Bohemia Interactive Studio.
+                    This is a community-driven, non-commercial project for simulation and historical reenactment purposes only.
+                </p>
+            </div>
+            <div class="footer-right">
+                <p>Connect with Us</p>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/@IndiaCo35/featured" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://x.com/3rdbn5thmararma" target="_blank" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://discord.gg/GEA23qPCCQ" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const mobileMenu = document.getElementById("mobileMenu");
+      
+        menuToggle.addEventListener("click", () => {
+          mobileMenu.classList.toggle("open");
+        });
+    </script>
+
+
+</body>
